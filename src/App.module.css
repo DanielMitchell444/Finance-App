@@ -1,0 +1,109 @@
+*{
+ margin: 0;
+ padding: 0;
+ overflow-y: hidden;
+}
+
+.main{
+overflow-y: hidden;
+}
+
+.module{
+  width: 500px;
+}
+
+.mobileMenu{
+
+  background-color: rgb(26, 27, 30);
+}
+
+.toggleMenu{
+
+  background-color: rgb(26, 27, 30);
+  margin: 0px;
+  padding: 0px;
+}
+
+.mobileContainer{
+  height: 100vh;
+}
+
+.link{
+  margin: 0px;
+  text-decoration: none;
+  color: rgb(166, 167, 171);
+  padding: 25px;
+  font-size: 26px;
+}
+
+.container{
+  background-color: rgb(20,21,23);
+  overflow-y: hidden;
+}
+
+
+.nav{
+  background-color: rgb(26, 27, 30);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.navIcon{
+  font-size: 22px;
+  color: rgb(166, 167, 171)
+}
+
+.nav h1{
+  font-size: 22px;
+  text-align: center;
+  color: rgb(166, 167, 171)
+}
+
+/*CSS FOR HOMEPAGE */
+
+.container{
+  height: 100vh;
+}
+
+.boxContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.header h1{
+  text-align: center;
+  color: rgb(166, 167, 171);
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.box1 h1{
+  font-size: 28px;
+  text-align: center;
+  color: rgb(166, 167, 171);
+}
+
+.box2 h1{
+  font-size: 28px;
+  text-align: center;
+  color: rgb(166, 167, 171);
+}
+
+.boxes{
+  background-color: rgb(37, 38, 43);
+  width: 180px;
+  height: 180px;
+}
+
+.box2{
+  background-color: rgb(37, 38, 43);
+  width: 180px;
+  height: 180px;
+}

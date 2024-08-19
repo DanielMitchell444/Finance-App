@@ -3,7 +3,7 @@ import React, { useCallback, useState } from 'react';
 
 import { usePlaidLink, PlaidLinkOnSuccess } from 'react-plaid-link';
 
-const SimplePlaidLink = () => {
+const App = () => {
   const [token, setToken] = useState(null);
 
   // get link_token from your server when component mounts
@@ -30,10 +30,13 @@ const SimplePlaidLink = () => {
   });
 
   return (
+    <div>
     <button onClick={() => open()} >
       Connect a bank account
     </button>
+    <h1>Hi</h1>
+  </div>
   );
 };
 
-export default SimplePlaidLink;
+export default App;
